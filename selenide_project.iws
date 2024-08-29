@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="681d8180-ca1d-4e71-bd52-107209378849" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/url.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenide_project.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.ipr" afterDir="false" />
+    <list default="true" id="681d8180-ca1d-4e71-bd52-107209378849" name="Changes" comment="Added json file singleton">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/base/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/page/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1723759562057.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1723759562057.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1723802532133.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1723802532133.0.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/selenide_project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/SearchMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/page/SearchMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/reader/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/service/JsonReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/test/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/test/SearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/page/SearchMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/page/SearchMainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/page/reader/JsonReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/service/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/service/JsonReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/test/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/test/SearchTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -426,8 +429,17 @@
       <workItem from="1723802471911" duration="149000" />
       <workItem from="1724520549480" duration="651000" />
       <workItem from="1724791706419" duration="3257000" />
-      <workItem from="1724966362227" duration="1607000" />
+      <workItem from="1724966362227" duration="4798000" />
     </task>
+    <task id="LOCAL-00001" summary="Added json file singleton">
+      <option name="closed" value="true" />
+      <created>1724968070540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724968070540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -467,6 +479,21 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added json file singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added json file singleton" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
