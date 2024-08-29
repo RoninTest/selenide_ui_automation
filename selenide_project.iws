@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="681d8180-ca1d-4e71-bd52-107209378849" name="Changes" comment="" />
+    <list default="true" id="681d8180-ca1d-4e71-bd52-107209378849" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/url.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenide_project.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenide_project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/SearchMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/page/SearchMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/reader/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/service/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/test/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/test/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/page/SearchMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/page/SearchMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/page/reader/JsonReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/test/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/test/SearchTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,6 +187,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HierarchyBrowserManager">
     <option name="SHOW_PACKAGES" value="false" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -245,6 +259,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -410,7 +425,8 @@
       <workItem from="1723757339892" duration="2224000" />
       <workItem from="1723802471911" duration="149000" />
       <workItem from="1724520549480" duration="651000" />
-      <workItem from="1724791706419" duration="2444000" />
+      <workItem from="1724791706419" duration="3257000" />
+      <workItem from="1724966362227" duration="1607000" />
     </task>
     <servers />
   </component>

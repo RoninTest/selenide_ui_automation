@@ -2,6 +2,7 @@ package com.example.test;
 
 import com.codeborne.selenide.*;
 import com.example.page.SearchMainPage;
+import com.example.service.JsonReader;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,7 +13,7 @@ public class SearchTest extends SearchMainPage {
     @Before
     public void setUp() {
         Configuration.browser = Browsers.CHROME;
-        open("https://www.trendyol.com");
+        open(JsonReader.getUrl("base_url"));
         WebDriverRunner.getWebDriver().manage().window().maximize();
         clickBanner();
         acceptCookie();
@@ -21,6 +22,6 @@ public class SearchTest extends SearchMainPage {
     @Test
     public void searchProductInMainPage() {
         enterSearchField();
-        searchProduct("iphone");
+        searchProduct(JsonReader.getData("searching_word"));
     }
 }
