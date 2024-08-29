@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="681d8180-ca1d-4e71-bd52-107209378849" name="Changes" comment="Added Base Class">
+    <list default="true" id="681d8180-ca1d-4e71-bd52-107209378849" name="Changes" comment="some fixed">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenide_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenide_project.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenide_project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/SearchMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/page/SearchMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/service/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/service/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/base/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/page/SearchMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/page/SearchMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/service/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/service/JsonReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/test/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/test/SearchTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,7 +424,7 @@
       <workItem from="1723802471911" duration="149000" />
       <workItem from="1724520549480" duration="651000" />
       <workItem from="1724791706419" duration="3257000" />
-      <workItem from="1724966362227" duration="4958000" />
+      <workItem from="1724966362227" duration="5761000" />
     </task>
     <task id="LOCAL-00001" summary="Added json file singleton">
       <option name="closed" value="true" />
@@ -437,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724971248933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some fixed">
+      <option name="closed" value="true" />
+      <created>1724971350480</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724971350480</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -492,7 +505,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added json file singleton" />
     <MESSAGE value="Added Base Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Base Class" />
+    <MESSAGE value="some fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fixed" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>

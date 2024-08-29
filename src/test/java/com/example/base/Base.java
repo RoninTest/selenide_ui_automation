@@ -1,5 +1,6 @@
 package com.example.base;
 
+import com.aventstack.extentreports.ExtentReports;
 import com.codeborne.selenide.Browsers;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
@@ -23,7 +24,7 @@ public class Base extends BasePage {
     }
 
     @After
-    public void closeDriver(){
+    public void closeDriver() {
         closeWebDriver();
     }
 }
