@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class BasePage {
+public class ManagementPage {
     public void clickBanner() {
         $(By.xpath(JsonReader.getLocator("bannerButton"))).click();
     }

@@ -1,6 +1,6 @@
 package com.example.test;
 
-import com.example.base.Base;
+import com.example.management.Base;
 import com.example.page.SearchMainPage;
 import com.example.service.JsonReader;
 import org.junit.Test;

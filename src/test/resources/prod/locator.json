@@ -1,0 +1,6 @@
+{
+  "searchField": "//input[@data-testid='suggestion']",
+  "bannerButton": "//div[@class='modal-close']",
+  "acceptCookieButton": "onetrust-accept-btn-handler",
+  "searchButton": "autoCompleteAppWrapper"
+}

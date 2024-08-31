@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="681d8180-ca1d-4e71-bd52-107209378849" name="Changes" comment="some fixed">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenide_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenide_project.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenide_project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/base/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/page/SearchMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/page/SearchMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/prod/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/management/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/page/ManagementPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/service/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/service/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/test/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/test/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/locator.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/prod/locator.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/url.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/prod/url.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/base/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/page/BasePage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/service/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/service/JsonReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/test/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/test/SearchTest.class" afterDir="false" />
     </list>
@@ -274,6 +279,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/dev" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example" />
     </key>
@@ -424,7 +432,8 @@
       <workItem from="1723802471911" duration="149000" />
       <workItem from="1724520549480" duration="651000" />
       <workItem from="1724791706419" duration="3257000" />
-      <workItem from="1724966362227" duration="5761000" />
+      <workItem from="1724966362227" duration="5872000" />
+      <workItem from="1725130893081" duration="1219000" />
     </task>
     <task id="LOCAL-00001" summary="Added json file singleton">
       <option name="closed" value="true" />
@@ -450,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724971350480</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some fixed">
+      <option name="closed" value="true" />
+      <created>1724972166730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724972166730</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">

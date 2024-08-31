@@ -13,9 +13,9 @@ public class JsonReader {
 
     static {
         try {
-            locatorJson = loadJson("src/test/locator.json");
-            urlJson = loadJson("src/test/url.json");
-            dataJson = loadJson("src/test/data.json");
+            urlJson = loadJson("src/test/resources/prod/url.json");
+            locatorJson = loadJson("src/test/resources/prod/locator.json");
+            dataJson = loadJson("src/test/resources/prod/data.json");
         } catch (Exception e) {
             e.printStackTrace();
             throw new RuntimeException("Failed to load JSON file");
