@@ -4,22 +4,19 @@ import com.codeborne.selenide.SelenideElement;
 import com.example.service.JsonReader;
 import org.openqa.selenium.By;
 
-import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.page;
 
 public class SearchMainPage {
 
     private final SelenideElement searchField = $(By.xpath(JsonReader.getLocator("searchField")));
 
-    public void enterSearchField() {
-        $(By.id(JsonReader.getLocator("searchButton"))).click();
-    }
-
-    public void searchProduct(String text) {
+    public SearchResultPage searchProduct(String text) {
         searchField.val(text).pressEnter();
-    }
-
-    public void verifyNoDataResult() {
-        $(By.className(JsonReader.getData("noResult_info_element"))).shouldBe(visible);
+        return page(SearchResultPage.class);
     }
 }
+
+
+
+

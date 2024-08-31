@@ -2,6 +2,7 @@ package com.example.test;
 
 import com.example.management.Base;
 import com.example.page.SearchMainPage;
+import com.example.page.SearchResultPage;
 import com.example.service.JsonReader;
 import org.junit.Test;
 
@@ -11,14 +12,17 @@ public class SearchTest extends Base {
 
     @Test()
     public void searchProductInMainPage() {
-        searchMainPage.enterSearchField();
-        searchMainPage.searchProduct(JsonReader.getData("searching_word"));
+        SearchResultPage resultsPage = searchMainPage.searchProduct(JsonReader.getData("searching_word"));
+        resultsPage.verifyResult();
     }
 
     @Test
     public void searchNotExistProduct() {
-        searchMainPage.enterSearchField();
-        searchMainPage.searchProduct(JsonReader.getData("noResult_word"));
-        searchMainPage.verifyNoDataResult();
+        SearchResultPage resultsPage = searchMainPage.searchProduct(JsonReader.getData("noResult_word"));
+        resultsPage.verifyNoDataResult();
     }
 }
+
+
+
+
