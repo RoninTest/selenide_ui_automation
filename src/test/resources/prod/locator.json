@@ -3,5 +3,6 @@
   "bannerButton": "//div[@class='modal-close']",
   "acceptCookieButton": "onetrust-accept-btn-handler",
   "searchButton": "autoCompleteAppWrapper",
-  "searchResult": "//div[@class='dscrptn dscrptn-V2']//h1"
+  "searchResult": "//div[@class='dscrptn dscrptn-V2']//h1",
+  "noResult_info_element": "no-rslt-info"
 }

@@ -1,2 +1,8 @@
-/Users/alierendasdemir/selenide_project/src/test/java/com/example/GoogleTest.java
-/Users/alierendasdemir/selenide_project/src/test/java/com/example/page/GoogleMainPage.java
+/Users/alierendasdemir/selenide_project/src/test/java/com/example/service/JsonReader.java
+/Users/alierendasdemir/selenide_project/src/test/java/com/example/page/SearchMainPage.java
+/Users/alierendasdemir/selenide_project/src/test/java/com/example/page/SearchResultPage.java
+/Users/alierendasdemir/selenide_project/src/test/java/com/example/management/Base.java
+/Users/alierendasdemir/selenide_project/src/test/java/com/example/management/CookieManagement.java
+/Users/alierendasdemir/selenide_project/src/test/java/com/example/page/ManagementPage.java
+/Users/alierendasdemir/selenide_project/src/test/java/com/example/management/BannerManagement.java
+/Users/alierendasdemir/selenide_project/src/test/java/com/example/test/SearchTest.java

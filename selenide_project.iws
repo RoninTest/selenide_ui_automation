@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="681d8180-ca1d-4e71-bd52-107209378849" name="Changes" comment="added some feature">
+    <list default="true" id="681d8180-ca1d-4e71-bd52-107209378849" name="Changes" comment="added page object">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenide_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenide_project.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenide_project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/selenide_project.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/SearchMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/page/SearchMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/management/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/management/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/page/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/test/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/test/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/prod/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/prod/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/prod/locator.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/prod/locator.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.GoogleTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.test.GoogleTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.GoogleTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.test.GoogleTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/management/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/management/Base.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/test/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/test/SearchTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/prod/locator.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/prod/locator.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,7 +444,16 @@
       <workItem from="1724520549480" duration="651000" />
       <workItem from="1724791706419" duration="3257000" />
       <workItem from="1724966362227" duration="5872000" />
-      <workItem from="1725130893081" duration="6105000" />
+      <workItem from="1725130893081" duration="7365000" />
+      <workItem from="1725188649935" duration="1154000" />
+      <workItem from="1725212842813" duration="4015000" />
+      <workItem from="1725356533765" duration="751000" />
+      <workItem from="1725429978128" duration="5037000" />
+      <workItem from="1725568743533" duration="62000" />
+      <workItem from="1725632535157" duration="60000" />
+      <workItem from="1725692123918" duration="15000" />
+      <workItem from="1725692144007" duration="1040000" />
+      <workItem from="1725732614770" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="Added json file singleton">
       <option name="closed" value="true" />
@@ -472,7 +495,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725132264898</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added page object">
+      <option name="closed" value="true" />
+      <created>1725140667050</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725140667050</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added page object">
+      <option name="closed" value="true" />
+      <created>1725140683656</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725140683656</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -529,7 +568,8 @@
     <MESSAGE value="Added Base Class" />
     <MESSAGE value="some fixed" />
     <MESSAGE value="added some feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some feature" />
+    <MESSAGE value="added page object" />
+    <option name="LAST_COMMIT_MESSAGE" value="added page object" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>

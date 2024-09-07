@@ -1,0 +1,1 @@
+[{"uid":"c335a79c20519a6a","name":"searchNotExistProduct()","time":{"start":1725484085474,"stop":1725484097740,"duration":12266},"status":"passed","severity":"normal"},{"uid":"21e93f5d32b4f7a2","name":"searchProductInMainPage()","time":{"start":1725484097783,"stop":1725484102924,"duration":5141},"status":"passed","severity":"normal"}]
